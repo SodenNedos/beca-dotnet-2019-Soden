@@ -19,7 +19,9 @@ namespace BusinessCore
         private Object wheel;//ruedas
         private Object bodyWork;//Carrocería
 
-        public Vehicle(string enrollment, TypeVehicle typeVehicle, bool combustionEngine, bool electricEngine, object door, object motor, object chasis, object wheel, object bodyWork)
+        public Vehicle(string enrollment, TypeVehicle typeVehicle,
+            bool combustionEngine, bool electricEngine, object door,
+            object motor, object chasis, object wheel, object bodyWork)
         {
             this.enrollment = enrollment;
             this.typeVehicle = typeVehicle;
@@ -35,12 +37,9 @@ namespace BusinessCore
         public override string ToString()
         {
             string text = "";
-            text = "Hola soy el coche de matrícula; " + this.enrollment + " mi dueño es "+this.owner+"." ;
+            text = "Hola soy el coche de matrícula; " +this.enrollment + 
+                " mi dueño es "+this.owner+"." ;
             return text;
         }
-    }
-    public enum TypeVehicle
-    {
-        bike, motorcycle, car, truck, trailer, airplane, ship
     }
 }

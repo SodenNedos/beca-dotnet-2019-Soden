@@ -45,6 +45,7 @@
     <Compile Include="Chassis.cs" />
     <Compile Include="Door.cs" />
     <Compile Include="Motor.cs" />
+    <Compile Include="TypeVehicle.cs" />
     <Compile Include="Vehicle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Wheel.cs" />
