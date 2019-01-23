@@ -1,6 +1,6 @@
 ﻿namespace BusinessCore
 {
-    public enum TypeVehicle
+    public enum VehicleType
     {
         bike, motorcycle, car, truck, trailer, airplane, ship
     }

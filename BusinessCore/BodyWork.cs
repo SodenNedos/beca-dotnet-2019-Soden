@@ -7,18 +7,14 @@ namespace BusinessCore
         private String color;
         private Boolean mate;
         private Boolean brightness;
-        private string materialBodyWork;
+        private string material;
 
         public BodyWork(bool mate, bool brightness, string materialBodyWork, string color)
         {
             this.mate = mate;
             this.brightness = brightness;
-            this.materialBodyWork = materialBodyWork;
+            this.material = materialBodyWork;
             this.color = color;
         }
-    }
-    enum Color
-    {
-        bike, motorcycle, car, truck, trailer, airplane, ship
     }
 }

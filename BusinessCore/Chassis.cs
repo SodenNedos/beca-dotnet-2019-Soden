@@ -2,7 +2,7 @@
 {
     public class Chassis
     {
-        private int weight;//peso
+        private int weight;
         private string material;
 
         public Chassis(int weight, string material)

@@ -2,12 +2,12 @@
 
 namespace BusinessCore
 {
-    public class Motor
+    public class Engine
     {
         private int displacement;//cilindrada
         private int horsePower;//caballos de fuerza
 
-        public Motor(int displacement, int horsePower)
+        public Engine(int displacement, int horsePower)
         {
             this.displacement = displacement;
             this.horsePower = horsePower;
