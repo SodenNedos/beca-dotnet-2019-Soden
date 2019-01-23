@@ -1,0 +1,24 @@
+﻿using System;
+
+namespace BusinessCore
+{
+    public class BodyWork
+    {
+        private String color;
+        private Boolean mate;
+        private Boolean brightness;
+        private string materialBodyWork;
+
+        public BodyWork(bool mate, bool brightness, string materialBodyWork, string color)
+        {
+            this.mate = mate;
+            this.brightness = brightness;
+            this.materialBodyWork = materialBodyWork;
+            this.color = color;
+        }
+    }
+    enum Color
+    {
+        bike, motorcycle, car, truck, trailer, airplane, ship
+    }
+}
